@@ -182,6 +182,31 @@ nav a:hover {
   pointer-events: all;
 }
 
+/* Rotating decoration elements */
+.rotation-deco {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  transform-origin: 50% 50%;
+}
+.rotation-deco img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.rotation-info {
+  top: calc(var(--hero-frame-top) + 95px);
+  left: calc(50% - 382px);
+  width: 320px;
+  animation: rotateClockwise 14s linear infinite;
+}
+.rotation-gallery {
+  top: calc(var(--hero-frame-top) - 40px);
+  left: calc(50% + 210px);
+  width: 210px;
+  animation: rotateCounterClockwise 18s linear infinite;
+}
+
 /* Profile photo circle */
 .profile-circle {
   position: absolute;
@@ -354,6 +379,14 @@ footer a:hover {
 @keyframes fadeUpCentered {
   from { opacity: 0; transform: translate(-50%, 28px); }
   to   { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes rotateClockwise {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes rotateCounterClockwise {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
 }
 
 .hero-frame {
