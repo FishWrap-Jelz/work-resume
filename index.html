@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Andy Wang �?Versatile 2D/3D Artist & Technical Artist. 5 years of pipeline experience in Blender, Unity, and Substance Painter." />
+  <title>Andy Wang �?2D/3D Artist</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=IM+Fell+English:ital@0;1&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#info"    data-i18n="en">Contact Me</a>
+    <a href="#info"    data-i18n="zh">联系�?/a>
+    <a href="#gallery" data-i18n="en">Social Media</a>
+    <a href="#gallery" data-i18n="zh">社交媒体</a>
+
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <span class="sep"></span>
+      <button id="btn-zh" onclick="setLang('zh')">中文</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+
+    <div class="hero-frame">
+      <img src="imgs/intro_bg.webp" alt="3D art �?top-down spiral render" />
+    </div>
+
+    <div class="bubbles-layer" aria-hidden="true">
+      <img src="imgs/info_frame.webp" alt="Info and Art Gallery navigation" />
+    </div>
+
+    <div class="profile-circle">
+      <img src="imgs/profile_avatar.png" alt="Andy Wang" />
+    </div>
+
+    <div class="hero-text-img">
+      <img src="imgs/intro_text.webp" alt="Andy Wang �?2D/3D Artist. Deliver High Quality 3D works." />
+    </div>
+  </section>
+
+  <!-- INFO / BIO -->
+  <section id="info">
+    <div class="info-bg" aria-hidden="true">
+      <img src="imgs/intro_info_bg.webp" alt="" />
+    </div>
+    <div class="info-content reveal">
+      <div class="diamond-rule"><span></span></div>
+
+      <p data-i18n="en">
+        Versatile 3D &amp; Technical Artist with 5 years of comprehensive pipeline experience spanning
+        Blender, Unity, and Substance Painter. Expert in stylized 3D art workflows, PBR texturing,
+        and translating digital concepts into reality �?ranging from optimized low-poly game meshes
+        to custom art toys engineered for high-quality 3D printing. Proficient in delivering seamless
+        rigging and animation directly into Unity, complemented by practical C# script integration.
+        A holistic creator who also brings 2 years of game key art experience to ensure visual excellence
+        from initial concept to physical or digital compile.
+      </p>
+
+      <p data-i18n="zh">
+        全能�?D技术美术，拥有5年涵盖Blender、Unity及Substance Painter的完整制作管线经验�?        精通风格化3D美术工作流、PBR贴图制作，擅长将数字概念转化为现实——从优化低多边形游戏网格�?        到专为高精度3D打印定制的艺术玩具。熟练掌握骨骼绑定与动画，并可直接集成至Unity引擎�?        辅以C#脚本开发能力。同时具�?年游戏主视觉原画经验，从概念到最终实体或数字成品�?        全程保障视觉品质�?      </p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="gallery-header reveal">
+      <h2>
+        <span data-i18n="en">Gallery</span>
+        <span data-i18n="zh">作品�?/span>
+      </h2>
+      <p class="sub">
+        <span data-i18n="en">Personal &amp; Commercial Projects</span>
+        <span data-i18n="zh">个人与商业项�?/span>
+      </p>
+    </div>
+    <div class="gallery-img-wrap reveal">
+      <div class="gallery-hover-wrap">
+        <img src="imgs/gallery.png" alt="Andy Wang art gallery �?scenes and characters" />
+        <div class="hover-overlay" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      <span data-i18n="en">
+        &copy; 2025 Andy Wang &nbsp;&middot;&nbsp; 2D/3D Artist &nbsp;&middot;&nbsp;
+        <a href="mailto:your@email.com">Contact</a>
+      </span>
+      <span data-i18n="zh">
+        &copy; 2025 王安�?&nbsp;&middot;&nbsp; 2D/3D 艺术�?&nbsp;&middot;&nbsp;
+        <a href="mailto:your@email.com">联系�?/a>
+      </span>
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
