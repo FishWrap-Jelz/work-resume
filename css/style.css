@@ -182,6 +182,28 @@ nav a:hover {
   pointer-events: all;
 }
 
+/* Hero circle click targets */
+.hero-hotspot {
+  position: absolute;
+  z-index: 6;
+  display: block;
+  border-radius: 50%;
+}
+.hero-hotspot-info {
+  top: calc(var(--hero-frame-top) + 190px);
+  left: calc(50% - 276px);
+  width: 132px;
+  height: 132px;
+  transform: translate(-50%, -50%);
+}
+.hero-hotspot-gallery {
+  top: calc(var(--hero-frame-top) + 123px);
+  left: calc(50% + 273px);
+  width: 144px;
+  height: 144px;
+  transform: translate(-50%, -50%);
+}
+
 /* Rotating decoration elements */
 .rotation-deco {
   position: absolute;
