@@ -169,7 +169,7 @@ nav a:hover {
 /* Info / Art Gallery nav circles */
 .bubbles-layer {
   position: absolute;
-  top: var(--hero-frame-top);
+  top: calc(var(--hero-frame-top) + 60px);
   left: 50%;
   transform: translateX(-50%);
   width: var(--hero-frame-width);
@@ -186,11 +186,11 @@ nav a:hover {
 .profile-circle {
   position: absolute;
   z-index: 4;
-  top: calc(var(--hero-frame-top) + 193.8px);
+  top: calc(var(--hero-frame-top) + 149px);
   left: 50%;
   transform: translateX(-50%);
-  width: 110px;
-  height: 110px;
+  width: 156px;
+  height: 156px;
   border-radius: 50%;
   border: 3px solid var(--black);
   overflow: hidden;

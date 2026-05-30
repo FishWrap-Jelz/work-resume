@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\_PROJECTS\\WebCV\\work-resume\\css\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_PROJECTS\\WebCV\\work-resume\\css\\style.css||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:style.css||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_PROJECTS\\WebCV\\work-resume\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\_PROJECTS\\WebCV\\work-resume\\css\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "D:\\_PROJECTS\\WebCV\\work-resume\\css\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-30T10:39:45.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\_PROJECTS\\WebCV\\work-resume\\index.html",
+              "RelativeDocumentMoniker": "..\\index.html",
+              "ToolTip": "D:\\_PROJECTS\\WebCV\\work-resume\\index.html",
+              "RelativeToolTip": "..\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-30T10:39:12.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
