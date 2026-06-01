@@ -1,15 +1,15 @@
 /* ============================================================
-   Andy Wang — Portfolio Landing Page
+   Andy Wang - Portfolio Landing Page
    main.js
    ============================================================ */
 
-/* ── LANGUAGE SWITCHER ── */
+/* -- LANGUAGE SWITCHER -- */
 
 /**
  * Switch the page language between English ('en') and Chinese ('zh').
  * Updates:
- *  - <html data-lang> attribute  → CSS shows/hides [data-i18n] elements
- *  - <html lang>  attribute      → accessibility / SEO
+ *  - <html data-lang> attribute  -> CSS shows/hides [data-i18n] elements
+ *  - <html lang>  attribute      -> accessibility / SEO
  *  - Active state on toggle buttons
  *  - Persists the choice to localStorage
  *
@@ -32,7 +32,7 @@ function restoreLang() {
   setLang(saved);
 }
 
-/* ── SCROLL-REVEAL (IntersectionObserver) ── */
+/* -- SCROLL-REVEAL (IntersectionObserver) -- */
 
 /**
  * Adds the class 'visible' to any element with class 'reveal'
@@ -55,7 +55,7 @@ function initReveal() {
   document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 }
 
-/* ── INIT ── */
+/* -- INIT -- */
 document.addEventListener('DOMContentLoaded', () => {
   restoreLang();
   initReveal();

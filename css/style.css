@@ -1,9 +1,9 @@
 /* ============================================================
-   Andy Wang �?Portfolio Landing Page
+   Andy Wang - Portfolio Landing Page
    style.css
    ============================================================ */
 
-/* ── RESET & VARIABLES ── */
+/* -- RESET & VARIABLES -- */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -32,7 +32,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── CHINESE FONT OVERRIDES ── */
+/* -- CHINESE FONT OVERRIDES -- */
 html[data-lang="zh"] body {
   font-family: var(--font-cn);
 }
@@ -48,7 +48,7 @@ html[data-lang="zh"] .gallery-header .sub {
   font-family: var(--font-cn);
 }
 
-/* ── i18n VISIBILITY ── */
+/* -- i18n VISIBILITY -- */
 [data-i18n] {
   display: none;
 }
@@ -62,7 +62,7 @@ html[data-lang="zh"] p[data-i18n="zh"] {
   display: block;
 }
 
-/* ── NAV ── */
+/* -- NAV -- */
 nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -129,7 +129,7 @@ nav a:hover {
   color: var(--black);
 }
 
-/* ── HERO SECTION ── */
+/* -- HERO SECTION -- */
 #hero {
   position: relative;
   --hero-frame-width: 680px;
@@ -262,7 +262,7 @@ nav a:hover {
   display: block;
 }
 
-/* ── INFO / BIO SECTION ── */
+/* -- INFO / BIO SECTION -- */
 #info {
   position: relative;
   width: 100%;
@@ -318,7 +318,7 @@ nav a:hover {
   transform: rotate(45deg);
 }
 
-/* ── GALLERY SECTION ── */
+/* -- GALLERY SECTION -- */
 #gallery {
   width: 100%;
   background: #f0efeb;
@@ -375,7 +375,7 @@ nav a:hover {
   opacity: 0.55;
 }
 
-/* ── FOOTER ── */
+/* -- FOOTER -- */
 footer {
   background: var(--black);
   color: var(--white);
@@ -393,7 +393,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ── ANIMATIONS ── */
+/* -- ANIMATIONS -- */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(28px); }
   to   { opacity: 1; transform: translateY(0); }
